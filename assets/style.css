@@ -1,0 +1,219 @@
+* {
+	margin:  0px;
+	padding:  0px;
+	box-sizing: border-box;
+}
+
+/* adjusting fonts */
+@font-face {
+	font-family: "FT88-Gothique";
+	src: url("font/FT88-Gothique.woff2") format("woff2-variations"),
+	     url("font/FT88-Gothique.woff") format("woff-variations");
+}
+@font-face {
+	font-family: "FT88-School";
+	src: url("font/FT88-School.woff2") format("woff2-variations"),
+	     url("font/FT88-School.woff") format("woff-variations");
+}
+/* adjusting fonts */
+
+body {
+	background-color: black;
+	color: deeppink;
+	transition: background 500ms ease;
+	width: 100%;
+}
+
+/* adjusting spacing */
+
+#left-column {
+	padding: 20px;
+}
+
+figure{
+	width: 600px;
+}
+
+figcaption{
+	display: none;
+}
+
+figure: hover figcaption{
+	display: block;
+}
+
+h1 {
+	color: deeppink;
+	margin-top:  10px;
+	margin-bottom:  5px;
+	font-family: "FT88-Gothique";
+	font-size: 60px;
+	position: fixed;
+	margin: 30 auto;
+	left: 0;
+	right: 0;
+	z-index: 14;
+}
+
+h2 {
+	color: deeppink;
+    margin-top: 70px;
+	margin-bottom:  20px;
+	font-family: "FT88-Gothique";
+	font-size: 30px;
+	position: fixed;
+	margin: 100 auto;
+	left: 0;
+	right: 0;
+	z-index: 13;
+}
+
+h3 {
+	color: white;
+	margin-top: 110px;
+	margin-bottom:  20px;
+	font-size: 25px;
+	font-family: "FT88-School";
+	position: fixed;
+	margin: 100 auto;
+	left: 0;
+	right: 0;
+	z-index: 12;
+}
+
+p, li {
+	font-size:  22px;
+	line-height: 30px;
+	margin-top:  20px;
+	color: white;
+	font-family: "FT88-School";
+}
+
+ul, ol {
+	margin-left: 20px;
+}
+
+#file {
+	max-width: 100%;
+	height:  auto;
+	position: absolute;
+	top: 800px;
+	left: 40%;
+	z-index: 11;
+}
+#print {
+	max-width: 100%;
+	height:  auto;
+	position: absolute;
+	top: 900px;
+	left: 55%;
+	transform: rotate(330deg);
+	z-index: 10;
+}
+#headphone {
+	max-width: 100%;
+	height:  auto;
+	position: absolute;
+	top: 700px;
+	left: 20%;
+	transform: rotate(330deg);
+	z-index: 3;
+}
+#powder {
+	max-width: 100%;
+	height:  auto;
+	position: absolute;
+	top: 150px;
+	left: 18%;
+	z-index: 8;
+}
+#tint {
+	max-width: 100%;
+	height:  auto;
+	position: absolute;
+	top: 890px;
+	left: 38%;
+	transform: rotate(300deg);
+	z-index: 7;
+}
+#mac {
+	max-width: 100%;
+	height:  auto;
+	position: absolute;
+	top: 250px;
+	left: 30%;
+	z-index: 6;
+}
+#tissue {
+	max-width: 100%;
+	height:  auto;
+	position: absolute;
+	top: 600px;
+	left: 70%;
+	transform: rotate(300deg);
+	z-index: 2;
+}
+#memo {
+	max-width: 100%;
+	height:  auto;
+	position: absolute;
+	top: 150px;
+	left: 65%;
+	transform: rotate(350deg);
+	z-index: 9;
+}
+#pouch {
+	max-width: 100%;
+	height:  auto;
+	position: absolute;
+	top: 1300px;
+	left: 23%;
+	z-index: 1;
+}
+#charger {
+	max-width: 100%;
+	height:  auto;
+	position: absolute;
+	top: 1500px;
+	left: 40%;
+	z-index: 5;
+	margin-bottom: 100px;
+}
+#heart {
+	margin-top: 600px;
+	position: fixed;
+	margin: 0 auto;
+	top: 200px;
+	left: 0;
+	right: 0;
+	z-index: 4;
+}
+#text {
+	padding-top: 2060px;
+	padding-bottom: 50px;
+	align-self: center;
+	vertical-align: bottom;
+}
+/* uncomment the code below to set the grid */
+
+/*#grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+body {
+	overflow: hidden;
+}
+
+.scroll {
+	padding:  20px;
+	overflow: scroll;
+	height: 100vh;
+}
+
+#left-column {
+}
+
+#right-column {
+	background: #333;
+}*/
